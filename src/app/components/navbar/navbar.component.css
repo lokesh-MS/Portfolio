@@ -1,0 +1,41 @@
+.fa-brands{
+    position: absolute;
+    right: 26px;
+    top: 12px;
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+}
+@media (max-width: 768px) {
+    .fa-brands{
+        position: absolute;
+        right: 100px;
+        top: 12px;
+        font-size: 32px;
+        font-weight: bold;
+        color: white;
+    }
+    .fa-github{
+        display: none;
+    }
+}
+/* Navbar styles */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #e7ebee;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  .navbar-brand:hover{
+    color: #23bc9d;
+    cursor: pointer;
+  }
+  .nav-link:hover{
+    cursor: pointer;
+    color: #23bc9d;
+  }

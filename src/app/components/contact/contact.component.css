@@ -1,0 +1,45 @@
+/* contact.component.css */
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  .fullscreen-black-background {
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #e7ebee;
+  
+}
+.contact-container{
+margin-top: 10%;
+}
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 0 20px; /* Adjust padding for smaller screens */
+    margin-top: 30%;
+  }
+  .form-group {
+    margin-bottom: 15px; /* Adjust margin between form groups */
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%; /* Make input fields and textarea full width */
+  }
+}
